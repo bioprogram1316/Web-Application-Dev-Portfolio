@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {Route, Switch, withRouter, Redirect} from 'react-router-dom';
+
+import Layout from './Layout/Layout';
+import Home from './Home/Home';
+import Experience from './Experience/Experience';
+import About from './About/About';
+import Education from './Education/Education';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Layout>
+        <Switch>
+          <Route path="/experience" component={Experience} />
+          <Route path="/education" component={Education} />
+          <Route path="/about" component={About} />
+          <Route path="/" exact component={Home} />
+          <Redirect to="/" />
+        </Switch>
+      </Layout>
     </div>
   );
 }
 
-export default App;
+export default withRouter(App);
