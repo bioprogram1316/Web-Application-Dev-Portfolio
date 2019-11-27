@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.04975891.chunk.css",
+    "main.js": "/static/js/main.f5899205.chunk.js",
+    "main.js.map": "/static/js/main.f5899205.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0a44e012.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0a44e012.js.map",
+    "static/css/2.b0bb7f2c.chunk.css": "/static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.9a71e6f4.chunk.js": "/static/js/2.9a71e6f4.chunk.js",
+    "static/js/2.9a71e6f4.chunk.js.map": "/static/js/2.9a71e6f4.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.846d5c77daa67276b233e9a45c811477.js": "/precache-manifest.846d5c77daa67276b233e9a45c811477.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.b0bb7f2c.chunk.css.map": "/static/css/2.b0bb7f2c.chunk.css.map",
+    "static/css/main.04975891.chunk.css.map": "/static/css/main.04975891.chunk.css.map",
+    "static/media/AACRPic_updated.jpg": "/static/media/AACRPic_updated.f60b4f4d.jpg",
+    "static/media/github_Blue.svg": "/static/media/github_Blue.74ae1406.svg",
+    "static/media/linkedin_Blue.svg": "/static/media/linkedin_Blue.80246603.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a44e012.js",
+    "static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.9a71e6f4.chunk.js",
+    "static/css/main.04975891.chunk.css",
+    "static/js/main.f5899205.chunk.js"
+  ]
+}
