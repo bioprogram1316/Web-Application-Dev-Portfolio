@@ -31,7 +31,7 @@ const experience = () => (
                         Application where users can build custom burgers with a variety of toppings. Each user 
                         can only access their own order history and can create new orders with a variety of options.
                     </Card.Text>
-                    <Card.Link href="#" target="_blank" >Build-a-Burger App Github</Card.Link>
+                    <Card.Link href="https://github.com/bioprogram1316/Build-A-Burger-App" target="_blank" >Build-a-Burger App Github</Card.Link>
                 </Card.Body>
                 <Card.Footer>React + Redux</Card.Footer>
             </Card>
